@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign In | Log In </title>
+    <link rel="website icon" type="png"  href="/Login/icon.png">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+    <div class="div_container">
+        <div class="loginLeft">
+            <h1 class="wellcome">Wellcome Back</h1>
+            <p class="login_para">Please enter log in details below</p>
+            <form class="form" action="#" autocomplete="on">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+    
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password"><br>
+    
+                <a href="#">Forget password</a><br>
+                <button type="button">Sign In</button>
+                <p> or continue</p>
+    
+                <div class="googleRender">
+                    
+                    <script src="https://accounts.google.com/gsi/client"async></script>
+                    <div class="" id="g_id_onload" data-client_id="Your_google_client_id" data-login_uri="https://your.domain/your_login_endpoint" data-auto_prompt="false"></div>
+                    <div class="g_id_signin"
+                    data-type="standard"
+                    data-size="large"
+                    data-text="sign_in_with"
+                    data-theme="outline"
+                    data-shape="rectangular"
+                    data-logo_alignment="left"></div>
+    
+                </div>
+    
+                
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+    
+        </div>
+    
+    
+        <div class="loginRight">
+        <img  class="rightImage" src="/Login/login_image.png" alt="LogIn Photo" >
+            
+        </div>
+    
+        
+    
+    
+    
+    </div>
+
+    
+</body>
+</html>

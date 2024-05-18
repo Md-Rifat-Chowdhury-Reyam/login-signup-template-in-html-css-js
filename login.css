@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(230, 231, 233);
+}
+
+.googleRender{
+    width: 300px;
+}
+
+.rightImage{
+    border-radius:10px;
+}
+.rightImage{
+    border-bottom-left-radius: 50px;
+    width: 400px;
+    height:500px ;
+}
+.loginRight{
+    margin-left: 50px;
+}
+.div_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
