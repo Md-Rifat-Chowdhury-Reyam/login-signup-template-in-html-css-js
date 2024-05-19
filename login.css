@@ -1,10 +1,66 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Sedan+SC&display=swap');
+
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(230, 231, 233);
 }
 
+.wellcome, .login_text{
+    font-family: "Sedan SC", serif;
+}
+.login_text{
+    margin-top: -10px;
+}
+.form{
+    width: 350px;
+}
+
+.form input{
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 350px;
+    border-radius: 8px;
+
+}
+.forget{
+    float: right;
+    margin-top: 10px;
+}
+
+.submit{
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+hr{
+    width: 100px;
+    
+}
+span{
+    display: inline-flex;
+    margin-top: 20px;
+}
+.or{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
 .googleRender{
-    width: 300px;
+
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .rightImage{
@@ -17,10 +73,19 @@ body{
 }
 .loginRight{
     margin-left: 50px;
+    display: flex;
 }
 .div_container{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    align-items: center;
+    margin-top: 100px;
+   
 }
+
+.dont{
+    display: flex;
+    justify-content: center;
+}
+
+

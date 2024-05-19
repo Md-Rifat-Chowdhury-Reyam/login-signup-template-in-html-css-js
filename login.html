@@ -12,18 +12,20 @@
 
     <div class="div_container">
         <div class="loginLeft">
+
             <h1 class="wellcome">Wellcome Back</h1>
-            <p class="login_para">Please enter log in details below</p>
-            <form class="form" action="#" autocomplete="on">
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email"><br>
+            <p class="login_text">Please enter log in details below</p>
+
+            <form class="form" action="https://www.w3schools.com/html/action_page.php" autocomplete="on">
+                <!-- <label for="email">Email</label><br> -->
+                <input type="email" id="email" name="email" placeholder="Email"><br>
     
-                <label for="password">Password</label><br>
-                <input type="password" id="password" name="password"><br>
+                <!-- <label for="password">Password</label><br> -->
+                <input type="password" id="password" name="password" placeholder="Password"><br>
     
-                <a href="#">Forget password</a><br>
-                <button type="button">Sign In</button>
-                <p> or continue</p>
+                <p><a class="forget"  href="#">Forget password?</a></p><br>
+                <input class="submit" type="submit" value="Sign in">
+                  <span class="or"><hr>or continue <hr></span> 
     
                 <div class="googleRender">
                     
@@ -38,24 +40,17 @@
                     data-logo_alignment="left"></div>
     
                 </div>
-    
-                
-                <p>Don't have an account? <a href="#">Sign Up</a></p>
+                <p class="dont">Don't have an account? <a href="#">Sign Up</a></p>
             </form>
     
         </div>
     
-    
         <div class="loginRight">
-        <img  class="rightImage" src="/Login/login_image.png" alt="LogIn Photo" >
-            
-        </div>
-    
-        
-    
-    
-    
-    </div>
+            <img  class="rightImage" src="/Login/login_image.png" alt="LogIn Photo" >
+                
+        </div> 
+     </div>
+
 
     
 </body>
